@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Encode+Sans&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Cookie&family=Encode+Sans&family=Sacramento&display=swap');
+.navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.thumbnail1 {
+    object-fit: contain;
+    width: 60px;
+    margin-right: 10px;
+}
+
+@media ( min-width: 950px ) {
+    .thumbnail1 {
+        object-fit: contain;
+        width: 80px;
+        margin-right: 10px;
+    }
+}
+
+.thumbnail2 {
+    object-fit: contain;
+    width: 60px;
+}
+
+@media ( min-width: 950px ) {
+    .thumbnail2 {
+        object-fit: contain;
+        width: 80px;
+    }
+}
+
+
+.highlight {
+    border: 2px solid blue;
+    border-radius: 12px;
+    object-fit: contain;
+    width: 60px;
+}
+@media ( min-width: 950px ) {
+    .highlight {
+        object-fit: contain;
+        width: 80px;
+    }
+}
+
+.image {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+.text__a {
+    display: flex;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.8rem;
+    padding: 0 10px 0 35px;
+}
+@media ( max-width: 950px ) {
+    .text__a {
+        display: none;        
+    }
+}
+
+.text__b {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+@media ( min-width: 950px ) {
+    .text__b {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 0px;        
+    }
+}
+.text__wrapper {
+    display: flex;    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 25px;
+}
+
+.text__c {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.text__b a:hover {
+    color: #ccc;
+}
